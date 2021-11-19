@@ -4,7 +4,6 @@
 
 <web-app>
   <display-name>NoRestWebApp</display-name>
-  
   <servlet>
     <servlet-name>applicationInformationServlet</servlet-name>
     <servlet-class>controller.ApplicationInformationServlet</servlet-class>
@@ -12,7 +11,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>applicationInformationServlet</servlet-name>
-    <url-pattern>/information</url-pattern>
+    <url-pattern>/servlet/*</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
